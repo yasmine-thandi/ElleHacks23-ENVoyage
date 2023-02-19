@@ -1,10 +1,12 @@
 package com.example.EnVoyage;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.View;
 
-public class PopTwo extends Activity {
+public class PopTwo extends Pop {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,8 +19,6 @@ public class PopTwo extends Activity {
         int Height = Dm.heightPixels;
 
         getWindow().setLayout(Width, Height);
-
-
 
     }
 }
