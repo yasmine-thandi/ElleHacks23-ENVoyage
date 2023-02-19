@@ -22,9 +22,9 @@ public class Pop extends Activity {
 
         getWindow().setLayout(width, height);
 
-        Button button5 = (Button) findViewById(R.id.button7);
+        Button button7 = (Button) findViewById(R.id.button7);
 
-        button5.setOnClickListener(new View.OnClickListener() {
+        button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Pop.this, PopTwo.class));

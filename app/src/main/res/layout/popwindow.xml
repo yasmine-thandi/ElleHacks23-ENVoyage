@@ -12,7 +12,7 @@
         android:layout_width="314dp"
         android:layout_height="70dp"
         android:backgroundTint="@color/gray"
-        android:onClick="buttonClicked1"
+        android:onClick="buttonClicked"
         android:text="Yes!"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
