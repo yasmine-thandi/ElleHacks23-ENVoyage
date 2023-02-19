@@ -4,11 +4,11 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 
-public class PopTwo extends Activity {
+public class PopThree extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.popwindow);
+        setContentView(R.layout.popwindowthree);
 
         DisplayMetrics Dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(Dm);
