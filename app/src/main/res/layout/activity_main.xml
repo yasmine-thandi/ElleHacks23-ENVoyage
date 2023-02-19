@@ -13,7 +13,7 @@
         android:layout_height="70dp"
         android:backgroundTint="@color/gray"
         android:onClick="buttonClicked"
-        android:text="Let's Begin!"
+        android:text="NEXT"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

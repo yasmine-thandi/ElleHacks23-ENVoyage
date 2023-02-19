@@ -22,7 +22,7 @@ public class Pop extends Activity {
 
         getWindow().setLayout(width, height);
 
-        Button button5 = (Button) findViewById(R.id.button5);
+        Button button5 = (Button) findViewById(R.id.button7);
 
         button5.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,17 +1,16 @@
 package com.example.EnVoyage;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
 
-public class PopTwo extends Pop {
+public class PopFour extends PopThree {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.popwindow);
+        setContentView(R.layout.popwindowfour);
 
         DisplayMetrics Dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(Dm);
@@ -21,14 +20,15 @@ public class PopTwo extends Pop {
 
         getWindow().setLayout(Width, Height);
 
-        Button button3 = (Button) findViewById(R.id.button3);
+        Button button7 = (Button) findViewById(R.id.button7);
 
-        button3.setOnClickListener(new View.OnClickListener() {
+        button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(PopTwo.this, PopThree.class));
+                startActivity(new Intent(PopFour.this, MainActivity.class));
             }
         });
+
 
     }
 }
